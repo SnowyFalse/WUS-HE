@@ -1,0 +1,178 @@
+Evaluator: Mathias Gsell
+Alter: 21
+Geschlecht: männlich
+Gerät: MacBook Pro 13-inch 2018
+Betriebssystem und Version: macOS Mojave 10.14.4
+Webbrowser und Version: Safari 12.1
+Ad Blocker: Privacy Badger 1.0.6
+Internetverbindung Typ: UPC Take-IT, xdsl
+Internetverbindung Download Geschwindigkeit: 16 mbps
+Bildschirmgröße: 13,3″
+Bildschirmauflösung: 2560 x 1600
+Browserauflösung: 2560 x 1600
+Datum der Evaluierung: 2019-04-24
+Uhrzeit der Evaluierung: 10:35-14:30
+
+
+Positive Beobachtungen
+----------------------
+
+o Reisedaten bleiben bei Änderung erhalten
+
+  Gibt man die Reisedaten ein, ändert aber die Auswahl von beispielsweise "Nur Flug" zu "Flug + Hotel", so werden die bereits eingegebenen Daten übernommen
+
+  Video clip: p01-mg-daten-bleiben-erhalten.mp4
+
+  Wie reproduzierbar:  Home → Reisedaten eingeben → Flug + Hotel → Flüge
+
+
+o Fehlervermeidung bei Eingabe persönlicher Daten
+
+  Bei der Eingabe von Namen sind keine Ziffern möglich, bei der Eingabe der Telefonnummer sind keine Buchstaben möglich.
+
+  Screenshot(s):  p01-mg-persönliche-reisedaten-fehlervermeidung.jpg
+
+  Heuristik: Fehlervermeidung
+
+  Wie reproduzierbar: Home → Flüge → Daten eingeben → Suchen
+  → Flüge auswählen → "Weiter mit der Buchung"
+
+
+
+Probleme
+--------
+o Auswahl nicht eindeutig zuzuordnen
+
+  Bei Hinzufügen von Kindern bei Flüge, nicht erkennbar welcher Punkt für welche Auswahl steht (Auf dem Schoß, Auf einem Sitzplatz)
+
+
+  Screenshot(s):  n01-mg-auswahl-kinder.png
+
+  Heuristik: Sprache des Benutzers verwenden
+
+  Wie reproduzierbar: Home → Flüge → Reisende → Kleinkinder
+  → mind. 1 hinzufügen
+
+
+
+o Filter gehen verloren
+
+  Bei der Flugauswahl gesetzte Filter gehen nach Auswahl eines konkreten Fluges verloren, wenn man diese wieder rückgängig macht.
+
+  Video clip: n01-mg-filter-rückgängig.mp4
+
+  Heuristik: Umkehrbare Aktionen
+
+  Wie reproduzierbar: Flug suchen → Filter setzen (links) → Flug auswählen
+  → eine Seite zurück springen
+
+
+o Kein Feedback
+
+  Nach der Auswahl des Mietwagens wird kein Feedback angezeigt, während im Hintergrund das Buchungsformular geladen wird.
+
+  Video clip: n02-mg-kein-feedback-bestellformular.mp4
+
+  Heuristik: Rückmeldung des Systemzustands
+
+  Wie reproduzierbar: Home → Flug + Hotel → Flug + Hotel + Mietwagen
+  (Option wählen) → Reisedaten eigeben → Suchen → Hotel auswählen →
+  Flüge auswählen → Mietwagen auswählen
+
+
+
+o Bereits getroffene Auswahl schwer änderbar
+
+  Nach der Auswahl des Fluges, kann beispielsweise das Hotel alleine nur geändert werden, wenn man auch die bereits getroffenen Wahlen rückgängig macht. Man kann nicht direkt über einen Link zur Hotelauswahl gelangen.
+
+
+  Video clip: n03-mg-auswahl-gezielt-ändern.mp4
+
+  Heuristik: Umkehrbare Aktionen
+
+  Wie reproduzierbar: Home → Flug + Hotel → "Flug + Hotel + Mietwagen"
+  Option wählen → Reisedaten eigeben → Suchen → Hotel auswählen →
+  Flüge auswählen
+
+
+o Kein automatisches Aktualisieren der Ergebnisse bei Datenänderung
+
+  Wird ein Datum geändert, so muss erneut auf den Link "Flug + Hotel + Mietwagen suchen" geklickt werden, sodass sich auch die Suchergebnisse aktualisieren.
+
+  Video clip: n04-mg-kein-aktualisieren.mp4
+
+  Heuristik: Fehlervermeidung
+
+  Wie reproduzierbar: Home → Flug + Hotel → "Flug + Hotel + Mietwagen"
+  Option wählen → Reisedaten eigeben → Suchen → (Link) Hin- und Rückflug Daten
+
+o "Ihre Anfrage wird bearbeitet" erscheint bei Zurück-Navigieren im Browser
+
+  Wird ein Flug mit allen Optionen ausgewählt und der Button "Weiter mit der Buchung" geklickt, so erscheint "Ihre Anfrage wird bearbeitet". Navigiert man im Browser jedoch zurück, so wird erneut das Label "Ihre Anfrage wird bearbeitet".
+
+  Video clip: n05-mg-ihre-anfrage-wird-bearbeitet.mp4
+
+  Heuristik: Rückmeldung des Systemzustandes (Feedback)
+
+  Wie reproduzierbar: Home → Flüge → Flugdaten eingeben → Suchen
+  → Flüge auswählen → "Weiter mit der Buchung" → "Zurück" im Browser
+
+
+o Bei Pauschalreisensuche wird altes Design aufgerufen
+
+  Wenn man nach einer Pauschalreise sucht wird ein anderes Design aufgerufen. Klickt man dann erneut auf den Top-Menü-Link "Pauschalreise", so erscheint ein anderes Layout, welches nicht über den gesamten Bildschirm skaliert wird.
+
+  Videoclip: n06-mg-pauschalreise-layout.mp4
+
+  Heuristik: Konsistenz
+
+  Wie reproduzierbar: Home → Pauschalreisen → Reisedaten eingeben → Suche  →
+  Top-Menü-Link "Pauschalreisen"
+
+
+
+o Nicht benannte Dropdown-Felder unter Pauschalreisensuche
+
+  Wählt man auf der Startseite den Unterpunkt "Pauschalreisen" aus, so findet man drei nicht benannte Dropdown-Felder.
+
+  Screenshot(s): n02-mg-unbenanntes-dropdown-feld.png
+
+  Heuristik: Erkennen ist besser als erinnern
+
+  Wie reproduzierbar: Home → Pauschalreisen
+
+
+o falsche Fehlermeldung bei Flughafentransfer
+
+  Werden beim Flughafentransfer Hin- und Rückfahrt für den selben Tag ausgewählt, mit beispielsweise 4 Stunden Zeitunterschied, so erscheint eine falsche Fehlermeldung: "Der Abflug muss mindestens zwei Stunden nach der Ankunft stattfinden."
+
+  Screenshot(s): n03-mg-falsche-fehlermeldung.png
+
+  Heuristik: Gute Fehlermeldung
+
+  Wie reproduzierbar: Home → Events & Tickets → Haken setzen bei "Hin- und
+  Rückfahrt buchen und SPAREN" → Zeiten für den gleichen Tag eingeben → Suchen
+
+
+
+o Fehlervermeidung bei Flughafentransfer
+
+  Die Hotels, welche beim Eintippen des Hotels bei Flughafentransfer vorgeschlagen werden, sind nicht auf das ausgwählte Land eingeschränkt.
+
+  Screenshot(s): n04-mg-fehlervermeidung-flughafentransfer.png
+
+  Heuristik: Fehlervermeidung
+
+  Wie reproduzierbar: Home → Events & Tickets → Reisedaten eigeben
+
+
+
+o Kleinkind nicht definiert
+
+  Bei der Suche nach Events & Tickets ist das Alter eines Kleinkinds nicht definiert.
+
+  Screenshot(s): n05-mg-kleinkind-undefiniert.jpg
+
+  Heuristik: Sprache des Benutzers verwenden
+
+  Wie reproduzierbar: Home → Events & Tickets
