@@ -1,0 +1,27 @@
+Evaluator: Theresa Dietinger
+Alter: 18
+Geschlecht: weiblich
+Gerät: Aspire V13
+Betriebssystem und Version: Windows 10 Home Version 1803
+Webbrowser und Version: Google Chrome 73
+Ad Blocker: Ja
+Internetverbindung Typ: Wlan
+Internetverbindung Download Geschwindigkeit: 70 mbps
+Bildschirmgröße: 13,3 Zoll
+Bildschirmauflösung: Full-HD
+Browserauflösung: 
+Datum der Evaluierung: 23.04.2019-27.04.2019
+Uhrzeit der Evaluierung: 
+
+
+Positive Beobachtungen
+----------------------
+- Minimales Design großteils konsistent und einfach zu bedienen.
+- Gute FAQ und Hilfestellungen für ältere Zielgruppen, welcher weniger Erfahrung mit Websites haben.
+
+Probleme
+--------
+- Teilweise sehr inkonsistente Daten und Links
+- Häufig treten Fehler auf, welche es verhindern Aktionen rückgängig zu machen und man die Seite neu laden, oder verlassen muss.
+
+

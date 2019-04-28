@@ -1,0 +1,91 @@
+Evaluator: Daniel Lamprecht
+Alter: 21
+Geschlecht: männlich
+Gerät: iPhone 7 Plus 128GB SpaceGray
+Betriebssystem und Version: iOS 12.2
+Webbrowser und Version: Google Chrome 73.0.3683.68
+Ad Blocker: Nein
+Internetverbindung Typ: A1 LTE
+Internetverbindung Download Geschwindigkeit: 120 mbps
+Bildschirmgröße: 5.5'
+Bildschirmauflösung: 1920x1080
+Browserauflösung: 
+Datum der Evaluierung: 23.04.2019
+Uhrzeit der Evaluierung: 13:30
+
+
+Positive Beobachtungen
+----------------------
+
+o Fehlervermeidung bei Datumsauswahl
+  Abflugsdatum kann nie vor Ankunftsdatum liegen
+  
+  Video clip: p01-ld-datepicker.mp4
+
+  Wie reproduzierbar: bei Reisedetails Datum auswählen
+
+o Fehlervermeidung bei Alterauswahl von Kind
+  Das Alter des Kindes muss nicht vom User selbst eingegeben werden, sondern es kann ausgewählt werden. So kann der User sich nicht vertippen
+  
+  Video clip: p02-ld-alterkind.mp4
+
+  Wie reproduzierbar: Urlaub mit Kind -> Alter von Kind auswählen
+
+
+o Gute Fehlermeldungen
+  Die meisten Fehlermeldungen sind verständlich formuliert (Ausnahmen -> siehe Probleme)
+  Screenshot: p03-ld-fehlermeldung.png
+
+o Ästhetik und minimales Design
+  Die Möglichkeiten des Nutzers sind gleich zu Beginn gut ersichtlich, Bilder ergänzen den Text und es ist sofort verständlich, was der Nutzer alles machen kann.
+  Screenshot: p04-ld-menü.png
+
+
+
+
+
+Probleme
+--------
+
+o Inkonsistenzen beim User Interface (passt)
+
+  -> Unterschiedliches Design bei Hotesuche-Allgemein und Hotelsuche-Stadt
+     Video-clip: n01-ld-hotels.mp4
+  
+  -> Unterschiedliches User Interface Datumsauswahl vor Suche und nach Suche
+     Video-clip: n02-ld-datepicker.mp4
+
+  -> Unterschiedliches Design Checkbox Deals->Pauschalreisen und Deals -> Flug+Hotel
+     Video-clip: n05-checkbox.mp4
+
+  -> Umgehen der Standard-Methode Flug+Hotel bei Punkt Flug und Hotel separat hinzufügen
+     Video-clip: n07-ld-hotel+flight.mp4
+  
+
+o Ästhetik und minimales Design (passt)
+  -> Manche Fehlermeldungen auf der mobilen Version führen zur Desktop-Version
+     Video-clip: n03-ld-hotel+flight.mp4
+
+
+o Fehlermeldungen (passt)
+  -> Unterkunft hinzufügen Button funktioniert nicht und führt zu einer englischen Fehlermeldung mit Errorcode 
+     Video-clip: n06-ld-fehlermeldung.mp4
+  -> Fehlermeldung bei Nicht-Angabe von Reiseziel bei Ferienwohnungssuche in 2 Sprachen formuliert
+     Video-clip: n10-ld-ferienwohnungfehler.mp4
+
+o Fehlervermeidung
+  -> Abhol- und Rückgabezeiten von Mietwagen müssen 2 Stunden auseinander liegen. Im User-Interface können aber auch Zeiten zur Rückgabe gewählt werden, welche weniger als 2 Stunden von der Abholung entfernt sind.
+     Video-clip: n08-ld-mietwagenzeiten.mp4
+  -> Datum des Last-Minute-Flugs kann auf das heutige gesetzt werden, jedoch erhält man eine Fehlermeldung wenn das Abflugdatum nicht in der Zukunft liegt.
+     Video-clip: n09-ld-lastminutedatum.mp4
+
+o Rückmeldung des Systemzustandes
+  -> Bei Auswahl eines Flugs und Zusammenstellung der Reisedetails ergibt sich eine längere Verzögerung. Es wird eine Meldung ausgegeben, ein Progress-Balken wäre jedoch besser.
+     Video-clip: n04-ld-progress.mp4
+
+
+
+
+
+
+
