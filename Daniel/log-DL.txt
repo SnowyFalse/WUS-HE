@@ -1,7 +1,7 @@
 Evaluator: Daniel Lamprecht
 Alter: 21
 Geschlecht: männlich
-Gerät: iPhone 7 Plus 128GB SpaceGray
+Gerät: iPhone 7 Plus
 Betriebssystem und Version: iOS 12.2
 Webbrowser und Version: Google Chrome 73.0.3683.68
 Ad Blocker: Nein
