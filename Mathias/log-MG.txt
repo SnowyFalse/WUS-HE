@@ -5,8 +5,8 @@ Gerät: MacBook Pro 13-inch 2018
 Betriebssystem und Version: macOS Mojave 10.14.4
 Webbrowser und Version: Safari 12.1
 Ad Blocker: Privacy Badger 1.0.6
-Internetverbindung Typ: UPC Take-IT, xdsl
-Internetverbindung Download Geschwindigkeit: 16 mbps
+Internetverbindung Typ: A1 WLAN
+Internetverbindung Download Geschwindigkeit: 30 mbps
 Bildschirmgröße: 13,3″
 Bildschirmauflösung: 2560 x 1600
 Browserauflösung: 2560 x 1600
