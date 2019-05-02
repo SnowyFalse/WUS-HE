@@ -47,7 +47,7 @@ o Ästhetik und minimales Design
 Probleme
 --------
 
-o Inkonsistenzen beim User Interface (passt)
+o Inkonsistenzen beim User Interface
 
   -> Unterschiedliches Design bei Hotesuche-Allgemein und Hotelsuche-Stadt
      Video-clip: n01-dl-konsistenz_hotels.mp4
@@ -62,12 +62,12 @@ o Inkonsistenzen beim User Interface (passt)
      Video-clip: n07-dl-konsistenz_hotel+flight.mp4
   
 
-o Ästhetik und minimales Design (passt)
+o Ästhetik und minimales Design
   -> Manche Fehlermeldungen auf der mobilen Version führen zur Desktop-Version
      Video-clip: n03-dl-ästhetik_desktop.mp4
 
 
-o Fehlermeldungen (passt)
+o Fehlermeldungen
   -> Unterkunft hinzufügen Button funktioniert nicht und führt zu einer englischen Fehlermeldung mit Errorcode 
      Video-clip: n06-dl-fehlermeldung.mp4
   -> Fehlermeldung bei Nicht-Angabe von Reiseziel bei Ferienwohnungssuche in 2 Sprachen formuliert
