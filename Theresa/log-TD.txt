@@ -6,7 +6,7 @@ Betriebssystem und Version: Windows 10 Home Version 1803
 Webbrowser und Version: Google Chrome 73.0.3683.86
 Ad Blocker: Ja
 Internetverbindung Typ: Edu-roam Wlan und Wlan privates Wlan
-Internetverbindung Download Geschwindigkeit: 70 mbps
+Internetverbindung Download Geschwindigkeit: 107 mbps
 Bildschirmgröße: 13,3 Zoll
 Bildschirmauflösung: Full-HD
 Browserauflösung: 
