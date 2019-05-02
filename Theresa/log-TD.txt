@@ -11,17 +11,96 @@ Bildschirmgröße: 13,3 Zoll
 Bildschirmauflösung: Full-HD
 Browserauflösung: 
 Datum der Evaluierung: 23.04.2019-27.04.2019
-Uhrzeit der Evaluierung: 
+Uhrzeit der Evaluierung: -
 
 
 Positive Beobachtungen
 ----------------------
-- Minimales Design großteils konsistent und einfach zu bedienen.
-- Gute FAQ und Hilfestellungen für ältere Zielgruppen, welcher weniger Erfahrung mit Websites haben.
+o App-Darstellung
+    Sehr übersichtliche Darstellung von App-Vorstellung
+    Video: p06-TD-Design.mp4
+    Wie reproduzierbar: https://www.expedia.at/iphone-ipad-app
+o Hilfe/Kundenservice
+    Gute Hilfe/Kundenservice
+    Screenshot: p01-TD-Hilfe.png
+    Wie reproduzierbar: https://www.expedia.at/service/
+o Design/ Daten bleiben bei Änderungen vorhangen
+    Minimalistisches/übersichtliches Design und übernehmen der Daten 
+    von z.B. "Nur Flug" zu "Flug + Hotel"
+    Video: p04-TD-Design.mp4
+    Wie reproduzierbar: https://www.expedia.at/
+o Reisende/Hotelbesitzer
+    Website ist in zwei Teile unterteilt. Bereich für Reisende
+    und Besitzer von Unterkünften
+    Video: p05-TD-Unterteilung.mp4
+    Wie reproduzierbar: Klick auf Unterkunft hinzufügen
+o Kalenderansicht
+    Kalenderansicht als Anternative zur Eingabe. So wird vertippen vermieden.
+    Screenshot: p02-TD-Kalender.png
+    Wie reproduzierbar: Datum auswählen
+o Dropdown Menüs
+    Erkennbare Dropdown Menüs
+    Screenshot: p03-TD-Dropdown.png
+    Wie reproduzierbar: https://www.expedia.at/
+
 
 Probleme
 --------
-- Teilweise sehr inkonsistente Daten und Links
-- Häufig treten Fehler auf, welche es verhindern Aktionen rückgängig zu machen und man die Seite neu laden, oder verlassen muss.
-
-
+o Ladezeit
+    Langes Laden der Startseite
+    Video: n09-TD-Ladezeit.mp4
+    Wie reproduzierbar: Startseite refreshen
+o Unterschiedliches Design von Subwebsites
+    Teilweise haben Seiten, welche von der Startseite aus mit einem Klick erreicht werden können 
+    ein unterschiedliches Design obwohl sie für ähnliches gedacht sind.
+    Video: n13-TD-Designunterschiede.mp4 
+    Wie reproduzierbar: https://www.expedia.at/Flug-und-Hotel
+o Format
+    Seite hat nicht richtiges Format. Inhalt füllt nicht ganzen Browser aus. 
+    Screenshot: n01-TD-Flug.png
+    Wie reproduzierbar: https://urlaub.expedia.at/pauschalreisen
+o Verbuggte Meldung
+    Meldung wird nur angezeigt wenn kein Flug/Mietwagen ausgewählt wird
+    Video:n 10-TD-Meldung.mp4
+    Wie reproduzierbar: https://www.expedia.at/Hotels
+o Home/Icon 
+    Home/Icon führt einen nicht zur Starthomepage, sondern zu einer bereits zuvor besuchten
+    Video: n14-TD-Home.mp4
+    Wie reproduzierbar: Beliebige Seite anklicken und anschließend auf das Expedia.at Logo klicken
+o Sprachauswahl
+    Sprachen sind nur ganz unten auszuwählen
+    Screenshot: n02-TD-Sprachen.png
+    Wie reproduzierbar: Ganz nach unten scrollen um Sprachen auszuwählen
+o App-Blog
+    Wenn Website von App und anschließend Blog angeklickt wird, wird man auf neue Website geleitet 
+    von der aus man nicht zum Home-Menü zurück kommt. 
+    Video: n11-TD-Inkonsistenz.mp4
+    Wie reproduzierbar: Zuerst auf App klicken, anschließend auf Blog
+o Addblocker
+    Angebote werden mit Addblocker nicht angezeigt
+    Screenshot: n03-TD-Addblocker.png
+    Wie reproduzierbar: https://www.expedia.at/billig-reisen
+o Rottöne
+    Rottöne nicht erkennbar
+    Screenshot: n04-TD-Rottöne.png
+    Wie reproduzierbar: https://www.expedia.at/billig-reisen
+o 6 Kinder auswählbar
+    Max 6 Personen auf einmal können gebucht werden, aber man kann trotzdem 6 Kinder auswählen
+    Screenshot: n05-TD-Personenanzahl.png
+    Wie reproduzierbar: Mehr als zwei Erwachsene und 6 Kinder auswählen
+o Altersbeschränkung
+    Keine Informationen darüber, dass Alter der Person zu niedrig ist
+    Video: n08-TD-Mietwagen.mp4
+    Wie reproduzierbar: Zuerst korrektes Alter eingeben, anschließend auf unter 18 ändern
+o Deals/Last Minute
+    Deals/Last Minute existiert nicht?
+    Video: n12-TD-Deals.mp4
+    Wie reproduzierbar: Deals oder Last Minute auswählen
+o Links
+    Links nicht klar ersichtlich
+    Screenshot: n06-TD-Links.png
+    Wie reproduzierbar: https://www.expedia.at/service/
+o Aktivität
+    Unklar was mit Aktivitäten gemeint ist
+    Screenshot: n07-TD-Aktivitäten.png
+    Wie reproduzierbar: https://www.expedia.at
