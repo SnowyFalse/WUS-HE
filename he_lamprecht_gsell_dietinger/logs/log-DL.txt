@@ -1,0 +1,116 @@
+Evaluator: Daniel Lamprecht
+Alter: 21
+Geschlecht: männlich
+Gerät: iPhone 7 Plus
+Betriebssystem und Version: iOS 12.2
+Webbrowser und Version: Google Chrome 73.0.3683.68
+Ad Blocker: Nein
+Internetverbindung Typ: A1 LTE
+Internetverbindung Download Geschwindigkeit: 120 mbps
+Bildschirmgröße: 5.5'
+Bildschirmauflösung: 1920x1080
+Browserauflösung: 1920x1080
+Datum der Evaluierung: 23.04.2019
+Uhrzeit der Evaluierung: 13:30-20:15
+
+
+Positive Beobachtungen
+----------------------
+
+o Titel: Fehlervermeidung Flugdatum
+  Beschreibung: Das Abfulgdatum kann nie vor dem Ankunftdatum liegen
+  Video-clip: p03-dl-fehlervermeidung_datepicker.mp4
+  Heuristik: Fehlervermeidung
+  Wie reproduzierbar: bei Reisedetails Datum auswählen
+
+o Titel: Fehlervermeidung Alterauswahl Kind
+  Beschreibung: Das Alter des Kindes muss nicht vom User selbst eingegeben werden, sondern es kann ausgewählt werden. So kann der User sich nicht vertippen.
+  Video-clip: p10-dl-fehlervermeidung_alter.mp4
+  Heuristik: Fehlervermeidung
+  Wie reproduzierbar: Urlaub mit Kind -> Alter von Kind auswählen
+
+
+o Titel: Gute Fehlermeldungen
+  Beschreibung: Die Meisten Fehlermeldungen sind verständlich formuliert
+  Screenshot: p01-dl-fehlermeldung.png
+  Heuristik: Fehlermeldung
+  Wie reproduzierbar: Bei Flug kein Datum eingeben
+
+o Titel: Strukturierte Grundfunktionalitäten
+  Beschreibung: Die Möglichkeiten die der Nutzer auf der Seite hat sind gleich zu Beginn ersichtlich, Bilder ergänzen den Text und es ist sofort verständlich, was der Nutzer alles machen kann.
+  Screenshot: p04-dl-ästhetik.png
+  Heuristik: Ästhetik und minimales Design
+  Wie reproduzierbar: Standardansicht
+
+
+
+
+
+Probleme
+--------
+o Titel: Unterschiedliches User Interface Hotelsuche-Allgemein und Hotelsuche Stadt explizit
+  Beschreibung: Bei Hotels Graz ist das Interface in weiß gehalten (normalerweise in Schwarz), der Suchen-Button hat eine andere Farbe (Blau statt gelb)
+  Video-clip: n25-dl-konsistenz_hotels.mp4
+  Heuristik: Konsistenz
+  Wie reproduzierbar: Vergleich Interface "https://www.expedia.at/Graz-Hotel.d1385.Reise-Angebote-Hotels " und Home → Hotels
+  
+o Titel: Unterschiedliches User Interface Datumsauswahl vor Suche und nach Suche
+  Beschreibung: Wenn ein Hotel gesucht wird, hat der Datepicker zu Beginn ein anderes Design als jener nach der Suche
+  Video-clip: n32-dl-konsistenz_datepicker.mp4
+  Heuristik: Konsistenz
+  Wie reproduzierbar: Vergleich Home → Datepicker und Suchergebnisse → Datepicker
+     
+o Titel: Fehlermeldung Desktop-Version
+  Beschreibung: Wenn bei Suche nach Hotel ein Flug hinzugefügt wird, und das Reiseziel und der Abflugsort gleich ist führt die Fehlermeldung auf die Desktop-Version der Seite
+  Video-clip: n01-dl-ästhetik_desktop.mp4
+  Heuristik: Ästhetik und minimales Design
+  Wie reproduzierbar: Home → Hotel → Checkbox Flug hinzufügen → Abflugort und Reiseort gleich → Fehlermeldung in Desktop-Version
+
+o Titel: Kein Progess-Balken bei langer Verzögerung
+  Beschreibung: Bei Auswahl eines Flugs und Zusammenstellung der Reisedetails wird zwar eine Meldung ausgegeben, aber kein Progress balken
+  Video-clip: n29-dl-rückmeldung_progressbar.mp4
+  Heuristik: Rückmeldung des Systemzustands
+  Wie reproduzierbar: List der Flüge → Auswahl von bestimmten Flug
+
+o Titel: Checkbox in unterschiedlichem Design
+  Beschreibung: Unter dem Punkt Deals hat bei Pauschalreisen die Checkbox ein anderes Design als bei Flug + Hotel
+  Video-clip: n26-dl-konsistenz_checkbox.mp4
+  Heuristik: Konsistenz
+  Wie reproduzierbar: "https://www.expedia.at/billig-reisen" Vergleich Checkbox Punkt "Pauschalreisen" und Checkbox Punkt "Flug+Hotel"
+
+o Titel: Unverständliche Fehlermeldung in anderer Sprache 
+  Beschreibung: Bei der Suche nach Städtereisen einer bestimmten Stadt funktioniert der Unterkunft hinzufügen Button nicht. Ebenso ist die Fehlermeldung unverständlich und auf Englisch
+  Video-clip: n07-dl-fehlermeldung.mp4
+  Heuristik: Fehlermeldungen
+  Wie reproduzierbar: "https://www.expedia.at/Barcelona.d179992.Reise-Angebote-Staedtereisen" (oder beliebige andere Stadt) → Unterkunft hinzufügen
+
+o Titel: Flug+Hotel: Umgehen der Standard-Methode
+  Beschreibung: Es gibt eine Standard-Variante um einen Flug mit einem Hotel zu buchen. Der Nutzer kann jedoch auch unter dem Punkt Flug zusätzlich ein Hotel hinzufügen. Das ist nicht konsistent und kann Nutzer verwirren
+  Video-clip: n27-dl-konsistenz_hotel+flight.mp4
+  Heuristik: Konsistenz
+  Wie reproduzierbar: Home → Flug (mit Checkbox hotel hinzufügen) und Home → Hotel+Flug
+
+o Titel: Mietwagen: Abhol- und Rückgabezeit am gleichen Tag
+  Beschreibung: Die Abhol- und Rückgabezeit muss mindestens 2 Stunden auseinander liegen. Ist dies nicht der Fall, wird eine Fehlermeldung ausgegeben. Diese Fehlermeldung könnte jedoch vermieden werden, indem direkt eine Auswahl der Rückgabezeit innerhalb von 2 Stunden nicht möglich ist.
+  Video-clip: n19-dl-fehlervermeidung_mietwagenzeiten.mp4
+  Heuristik: Fehlervermeidung
+  Wie reproduzierbar: "https://www.expedia.at/mietwagen" → Abhol- und Rückgabezeit
+
+o Titel: Last-Minute Flugdatum
+  Beschreibung: Wenn das Abflugdatum nicht in der Zukunft liegt, erhält der User eine Fehlermeldung. Wenn der User den heutigen Tag nicht als Abflugsdatum auswählen könnte, würde dieser Fehler vermieden werden.
+  Video-clip: n02-dl-fehlervermeidung_lastminutedatum.mp4
+  Heuristik: Fehlervermeidung
+  Wie reproduzierbar: "https://www.expedia.at/last-minute" → Abflugdatum heutiger Tag
+
+o Titel: Ferienwohnung Reiseziel Fehlermeldung
+  Beschreibung: Wenn explizit nach einer Ferienwohnung gesucht wird und kein Reiseziel angegeben wird erscheint eine zu technische Fehlermeldung die aus Deutsch und Englisch zusammengesetzt ist.
+  Video-clip: n03-dl-fehlermeldung_ferienwohnung.mp4
+  Heuristik: Fehlermeldungen
+  Wie reproduzierbar: "https://www.expedia.at/ferienwohnungen/"  → kein Reiseziel angeben
+
+
+
+
+
+
+
